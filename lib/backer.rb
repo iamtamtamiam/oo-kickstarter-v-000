@@ -8,7 +8,7 @@ class Backer
   end 
   
   def back_project(project)
-    self.all.find {|backer| artist.name == name} || name = Artist.new(name)
+    
     @project = project
     @backed_projects << @project
     Project.add_backer(self)
