@@ -10,4 +10,6 @@ class Project
     @backer = backer
     @backers << @backer
   end 
+  
+  
 end 
